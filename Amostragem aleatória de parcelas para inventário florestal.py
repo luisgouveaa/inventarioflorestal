@@ -7,7 +7,7 @@ import random
 import matplotlib.pyplot as plt
 
 # Carrega o arquivo do shapefile da área de interesse
-area_interesse = gpd.read_file('C:/Users/luish/OneDrive/Desktop/inventario/shapeexemplo/talhao.shp')
+area_interesse = gpd.read_file('C:/Users/area_de_interesse.shp')
 
 # Transforma o sistema de projeção para uma projeção adequada para o cálculo de área
 area_interesse = area_interesse.to_crs("EPSG:31982") #SIRGAS2000 /UTM zone 22s
