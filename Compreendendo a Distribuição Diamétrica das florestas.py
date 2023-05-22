@@ -24,7 +24,7 @@ dados_natural = np.concatenate([
 ])
 
 # Criar os gráficos de distribuição diamétrica
-plt.figure(figsize=(10, 4))
+plt.figure(figsize=(800/96, 400/96), dpi=96)  # Define o tamanho da figura em polegadas com uma resolução de 96 dpi
 
 # Gráfico da floresta plantada (distribuição normal)
 plt.subplot(1, 2, 1)
